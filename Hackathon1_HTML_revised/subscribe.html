@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Jay's Wine</title>
+</head>
+
+<body>
+    <div class="parent">
+        <header class="header">
+            <div class="logo-row">
+                <img class="logo" src="site_images/jaysnew.png" height="90px" width="120px">
+            </div>
+            <nav>
+                <ul class="site-menu">
+                    <li> <a class="current-page" href="index.html">Home</a></li>
+                    <li> <a href="about.html">Old world & New world</a></li>
+                    <li> <a href="process.html">Process of wine making</a></li>
+                    <li> <a href="subscribe.html">Subscribe</a></li>
+                    <li> <a href="contact.html">Contact</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <h1>Join Jay's Wine!</h1>
+                <div class="form-sub">
+                    <form name="subscribe" method="POST" data-netlify="true">
+                        <div class="personal-info">
+                            <label>First Name <input type="text" name="firstname" placeholder="Your first name" /></label>
+                            <label>Last Name <input type="text" name="lastname" placeholder="Your last name"/></label>
+                            <label>Date of birth <input type="date" name="dob" /></label>
+                            <label>Email <input type="email" name="email" placeholder="Your email address"/></label>
+                            <label>Phone number <input type="tel" name="phone" placeholder="Your mobile phone number" /></label>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>“An apple a day”? or do you pick something else from the fruit bowl? </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li> 
+                                        <input type="radio" name="fruit-choice" id="tangerine" value="tangerine" /><label for="tangerine" class="taste-answers">A tangy tangerine</label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="fruit-choice" id="apple" value="apple" /><label for="apple" class="taste-answers">A crisp apple</label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="fruit-choice" id="banana" value="banana" /><label for="banana" class="taste-answers">A ripe banana</label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="fruit-choice" id="mango" value="mango" /><label for="mango" class="taste-answers">A fresh mango </label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="fruit-choice" id="peach" value="peach" /><label for="peach" class="taste-answers">A soft peach</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>When the temperature rises which dessert do you reach for? </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li> 
+                                        <input type="radio" name="desert-choice" id="sorbet" value="sorbet" /><label for="sorbet" class="taste-answers">A light sorbet</label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="desert-choice" id="yoghurt" value="yoghurt" /><label for="yoghurt" class="taste-answers">A delicate frozen yoghurt</label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="desert-choice" id="ice-cream" value="ice-cream" /><label for="ice-cream" class="taste-answers">A rich, indulgent ice cream</label> 
+                                    </li>
+                                    <li> 
+                                        <input type="radio" name="desert-choice" id="cheesecake" value="cheesecake" /><label for="cheesecake" class="taste-answers">A creamy, smooth cheesecake</label> 
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>In the kitchen, what ingredients do you prefer? </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li> 
+                                        <input type="radio" name="ingredient-choice" id="cinnamon" value="cinnamon" /><label for="cinnamon" class="taste-answers">Heady cinnamon and nutmeg</label> 
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="ingredient-choice" id="parsly" value="parsly" /><label for="parsly" class="taste-answers">A sprinkle of subtle parsly</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="ingredient-choice" id="garlic" value="garlic" /><label for="garlic" class="taste-answers">Pungent garlic and onion</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="ingredient-choice" id="thyme" value="thyme" /><label for="thyme" class="taste-answers">Light and herbal thyme or bay leaf</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>There’s always room for pudding. Dig in! </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="pudding-choice" id="lemon" value="lemon" /><label for="lemon" class="taste-answers">A lemon drizzle cake</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="pudding-choice" id="applecrum" value="applecrum" /><label for="applecrum" class="taste-answers">A classic apple crumble</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="pudding-choice" id="tropical-fruit" value="tropical-fruit" /><label for="tropical-fruit" class="taste-answers">A tropical fruit salad</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="pudding-id" id="apricot-tart" value="apricot-tart" /><label for="apricot-tart" class="taste-answers">An apricot tart</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>Tell us your favourite thirst quencher! </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="thirst-choice" id="lime" value="lime" /><label for="lime" class="taste-answers">A mouth-tingling soda with fresh zesty lime</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="thirst-choice" id="ribena" value="ribena" /><label for="ribena" class="taste-answers">A rich Ribena, full of soft fruits</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="thirst-choice" id="apple-juice" value="apple-juice" /><label for="apple-juice" class="taste-answers">A sweet and fruity apple juice</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="thirst-choice" id="cranberry" value="cranberry" /><label for="cranberry" class="taste-answers"> A cranberry juice</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>Dining out? What grabs you? </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="dining-choice" id="fish" value="fish" /><label for="fish" class="taste-answers">Grilled white fish /or/ stir-fried greens with soy sauce and tofu</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="dining-choice" id="bbq" value="bbq" /><label for="bbq" class="taste-answers">Rich BBQ lamb /or/ aubergine moussaka</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="dining-choice" id="steak" value="steak" /><label for="steak" class="taste-answers">Juicy steak /or/ hearty portobello mushroom risotto</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="dining-choice" id="chicken" value="chicken" /><label for="chicken" class="taste-answers">Poached chicken breast /or/ vegan sushi</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>We all have a “go to” cuppa? What’s yours? </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="coffee-choice" id="espresso" value="espresso" /><label for="espresso" class="taste-answers">Strong espresso</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="coffee-choice" id="cappuchino" value="cappuchino" /><label for="cappuchino" class="taste-answers">Mild, creamy cappuchino</label> 
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="coffee-choice" id="americano" value="americano" /><label for="americano" class="taste-answers">Americano</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="coffee-choice" id="choco" value="choco" /><label for="choco" class="taste-answers">Hot chocolate</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="coffee-choice" id="tea" value="tea" /><label for="tea" class="taste-answers">Strong tea with a little milk</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="form-questions">
+                                <h4>What’s that aroma? Pick your favourite scented candle. </h4>
+                            </p>
+                            <fieldset>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="aroma-choice" id="cedar" value="cedar" /><label for="cedar" class="taste-answers">Cedarwood</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="aroma-choice" id="cherry" value="cherry" /><label for="cherry" class="taste-answers">Black cherry</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="aroma-choice" id="vanilla" value="vanilla" /><label for="vanilla" class="taste-answers">Vanilla</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="aroma-choice" id="forest-fruits" value="forest-fruits" /><label for="forest-fruits" class="taste-answers">Forest fruits</label>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <p class="button-submit">
+                                <button type="submit">Submit</button>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+        </main>
+        <widget class="widget">
+            <div>
+                <h3>Got additional questions? </h3>
+                    <p>
+                        <br>
+                        <a class="contact-button" href="5_contact.html">Contact us now!</a>
+                    </p>
+            </div>
+        </widget>
+        <footer>
+            <div class="footer">
+                <a href="5_contact.html">Contact</a>
+                <a href="">Disclaimer</a>
+                <a href="">Privacy Policy</a>
+            </div>
+            <p>
+                <div>
+                    Learn more about <a href="https://gdpr-info.eu/" target="_blank">your data privacy.</a>
+                </div>
+            </p>
+            <div>
+                <img src="site_images/All_rights_reserved_logo.svg.png" height="20px" width="20px">Copyright Jay's Winery   
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
